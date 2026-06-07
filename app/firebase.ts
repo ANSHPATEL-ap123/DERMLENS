@@ -19,7 +19,7 @@ import {
 // Replace these values with your own Firebase project config.
 // Keep them in .env in production.
 const firebaseConfig = {
- apiKey: "AIzaSyCc-LCQWeh34EegyJPTfBFuhuaXsyWOlcM",
+apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "dermlens.firebaseapp.com",
   projectId: "dermlens",
   storageBucket: "dermlens.firebasestorage.app",
